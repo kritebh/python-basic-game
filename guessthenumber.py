@@ -16,7 +16,7 @@ def guessgame(x):
     if counter <=5:
         print(f'Congratulations,{name} have guess the number in just {counter} round')
     elif counter >=6 and counter <=10:
-        print(f'You have guess the number in {counter} round')
+        print(f'{name},You have guess the number in {counter} round')
     elif counter >=11 and counter <=15:
         print(f'{name}, You have guess the number in {counter} round, Good luck next time')
     else:
