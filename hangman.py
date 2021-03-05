@@ -5,7 +5,7 @@ import string
 def mygame():
     word = random.choice(words).upper()
     lives = 6 
-    print(word)
+    # print(word)
     letters_in_word = set(word)
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
@@ -27,7 +27,6 @@ def mygame():
         else:
             print('Wrong Character')
     print(word)
-    
 
 user_word = input('Enter a letter : ')
 
